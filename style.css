@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-family: 'Exo 2', sans-serif !important;
+}
+.flex-container{
+    display: flex;
+}
+#tw{
+    margin-top: 12rem;
+}
+.top h1{
+    font-size: 2.7rem;
+}
+.top h1 span{
+    color: tomato;
+}
+.top .half-width p{
+    padding-right: 10rem;
+}
+.half-width{
+    width: 50%;
+    margin-left: 4rem;
+    align-items: center;
+}
+.top .half-width a{
+    background-image: linear-gradient(to right,orange,salmon);
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5%;
+    color: white;
+    text-transform: uppercase;
+}
+.top{
+    background-image: url(/img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.top .half-width img{
+    width: 70%;
+    margin-left: 5rem;
+    margin-top: 4rem;
+}
+.dream__big{
+    background-image: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+}
+.dream__big img{
+    width: 70%;
+}
+.dream__big h1{
+    font-size: 2.7rem;
+    margin-top: 7rem;
+}
+.dream__big .half-width p{
+    padding-right: 10rem;
+}
+.dream__big .half-width a{
+    background-image: linear-gradient(to right,rgb(109, 214, 95), aqua);
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5%;
+    color: white;
+    text-transform: uppercase;
+}
+.exp{
+    box-shadow: 10px 10px 40px 10px gray;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    height: 30rem;
+}
+.exp-right{
+    margin-right: 5rem;
+    border-left: 10px solid;
+    border-image: linear-gradient(to top,blue,aqua);
+    border-image-slice: 1;
+}
+.exp-left{
+    margin-right: 5rem;
+    border-left: 10px solid;
+    border-image:  linear-gradient(to bottom,orange,tomato);
+    border-image-slice: 1;
+    border-radius: 5%;
+}
+.experiance{
+    background-image: url(/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:0% 40%;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+.experiance h1{
+    font-size: 2.7rem;
+    
+}
+#ex{
+    margin-left: 4.5rem;
+    margin-bottom: 3rem;
+}
+.experiance h3{
+    color: tomato;
+}
