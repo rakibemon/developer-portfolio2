@@ -77,15 +77,16 @@ h1{
 .exp-right{
     margin-right: 5rem;
     border-left: 10px solid;
-    border-image: linear-gradient(to top,blue,aqua);
+    border-image: linear-gradient(to top,rgb(255, 174, 0),aqua);
     border-image-slice: 1;
+    border-radius: 10%;
 }
 .exp-left{
     margin-right: 5rem;
     border-left: 10px solid;
-    border-image:  linear-gradient(to bottom,orange,tomato);
+    border-image: linear-gradient(to bottom,tomato,orange);
     border-image-slice: 1;
-    border-radius: 5%;
+   
 }
 .experiance{
     background-image: url(img/exp-bg.png);
